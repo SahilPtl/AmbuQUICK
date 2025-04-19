@@ -1,0 +1,42 @@
+Project Goal: Design the User Interfaces (UIs) for an Ambulance Coordination System, consisting of two distinct interfaces: one for the Ambulance Driver/Dispatch Agency and one for regular Car Users.
+I. Ambulance Driver / Dispatch Agency Interface
+Purpose: To manage an ambulance journey, calculate the optimal route, and alert nearby vehicles.
+Core Features:
+Journey Setup Screen:
+Input Field 1: "Patient Pick-up Address" (Requires text input, potentially with address auto-completion/validation via geocoding).
+Input Field 2: "Destination Hospital Address" (Requires text input, potentially with auto-completion for known hospitals/validation).
+Button: "Calculate Route & Start Journey".
+Journey Execution (Activated by Button Press):
+Route Calculation: Upon button press, the system must calculate the fastest route based on current real-time traffic conditions between the specified pick-up and destination addresses.
+Map Display: Immediately display the calculated route on an interactive map interface. The map should show the ambulance's current location updating in real-time.
+Alert System Activation: Simultaneously initiate the process of sending "Attention Messages" to registered Car Users (running the companion app).
+Targeting: Messages should be sent only to car users located within a 5km radius ahead of the ambulance's current position and situated along its calculated route. [Clarification: How is "along the route" precisely defined - e.g., within X meters of the route line?]
+Initial Message: [Specify standard content, e.g., "Ambulance approaching your vicinity. Prepare to yield."]
+In-Journey Controls (Visible after journey starts):
+Live Map View: Continuously display the ambulance's position, the route, and ideally, real-time traffic overlay.
+Alert Message Toggle: Provide a clear control (e.g., a switch or button) allowing the driver/dispatcher to modify the alert sending behaviour based on traffic conditions ahead on their route:
+Mode 1 (Default/Active): Send Alerts (Heavy/Moderate Traffic) - System actively sends attention messages as defined above. This should be the default state.
+Mode 2 (Inactive): Pause Alerts (Light/No Traffic) - System temporarily stops sending new attention messages. Users already alerted might still see the ambulance tracking.
+[Consider safety: How can the driver safely operate this toggle while driving? Voice command? Large touchscreen button? Or is this primarily for a dispatcher?]
+II. Car User Interface
+Purpose: To inform car users of approaching alerted ambulances, enabling them to take safe evasive action.
+Core Features:
+Map Display:
+Show the user's current location on a standard map interface.
+Ambulance Alert & Tracking:
+Trigger: When the user's device receives an "Attention Message" from the system (because they are within the 5km radius ahead of an ambulance on its route).
+Visual Cue: Display a clear visual indicator on the map representing the specific approaching ambulance.
+Live Location: Show the real-time location of that specific ambulance on the user's map.
+Live Distance/ETA: Display the estimated distance (along the road network, not straight-line) and/or estimated time until the ambulance reaches the user's vicinity.
+[Optional: Highlight the ambulance's projected path near the user].
+Attention Message Display:
+Present the received "Attention Message" clearly to the user (e.g., via a pop-up notification, banner within the app).
+The message content should be as specified by the Driver/Agency system (e.g., "Ambulance approaching your vicinity [approx. X meters / Y seconds]. Please be prepared to yield.").
+Implicit Goal: The UI elements (map, live location, distance, message) should combine to give the car user enough situational awareness to react safely and appropriately (e.g., slow down, change lanes, pull over when safe).
+Key Considerations Added/Refined:
+Route Calculation: Specified "fastest route" considering traffic.
+Alert Targeting: Made more specific ("5km radius ahead," "along its calculated route"). Added a note for further clarification needed on "along the route."
+Alert Toggle: Defined clear modes (Send/Pause) linked to traffic rationale. Raised the safety aspect of driver interaction.
+Car User Trigger: Clarified that ambulance tracking appears upon receiving an alert.
+Distance: Specified "distance along the road network."
+Message Content: Explicitly mentioned showing the message content.
