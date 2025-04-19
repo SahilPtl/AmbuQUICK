@@ -40,7 +40,3 @@ The system uses GPS and mapping technologies to determine the **shortest and fas
 ## 📸 Demo
 
 [Add screenshots or a video link here if available]
-
-## 🛡️ License
-
-This project is licensed under the [MIT License](LICENSE).
