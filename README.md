@@ -37,6 +37,4 @@ The system uses GPS and mapping technologies to determine the **shortest and fas
 - Automated **traffic signal override** to prioritize ambulance routes  
 - Enhanced **AI-based congestion detection** for even faster rerouting  
 
-## 📸 Demo
 
-[Add screenshots or a video link here if available]
