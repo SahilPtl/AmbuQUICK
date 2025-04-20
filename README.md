@@ -1,5 +1,5 @@
 
-[![Built at Hack36](https://i.postimg.cc/FFwvfkGk/built-at-hack36.png)](https://hack36.in)
+[![Built at Hack36]((https://postimage.me/images/2025/04/19/built-at-hack36.png))](https://hack36.in)
 
 
 # 🚑 AmbuFree: Smart Ambulance Alert System
@@ -49,6 +49,6 @@ The system uses GPS and mapping technologies to determine the **shortest and fas
 - Roshna_Rajesh
 
 ## Made At
-[![Built at Hack36](https://i.postimg.cc/FFwvfkGk/built-at-hack36.png)](https://hack36.in)
+[![Built at Hack36]((https://postimage.me/images/2025/04/19/built-at-hack36.png))](https://hack36.in)
 
 
