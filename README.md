@@ -1,4 +1,7 @@
 
+[![Built at Hack36](https://i.postimg.cc/FFwvfkGk/built-at-hack36.png)](https://hack36.in)
+
+
 # 🚑 AmbuFree: Smart Ambulance Alert System
 
 In emergency situations, every second counts. Traffic congestion often delays ambulance response times, resulting in critical losses. **AmbuFree** is a web and mobile-based solution designed to streamline ambulance movement by **alerting nearby vehicles to clear the path**, reducing delays and enabling faster access to patients.
@@ -33,8 +36,19 @@ The system uses GPS and mapping technologies to determine the **shortest and fas
 ## 🚀 Future Scope
 
 - Integration with **smart traffic systems** and **vehicle-to-infrastructure (V2I)** communication  
-- Real-time **visual tracking** of ambulance route for other users  
+- Real-time **visual tracking** of ambulance route for other users
 - Automated **traffic signal override** to prioritize ambulance routes  
-- Enhanced **AI-based congestion detection** for even faster rerouting  
+- Enhanced **AI-based congestion detection** for even faster rerouting
+
+
+## Team Contributors
+- Team Name: Burj Al Ai
+- Team Members:
+- @Prak123learner
+- @SahilPtl
+- Roshna_Rajesh
+
+## Made At
+[![Built at Hack36](https://i.postimg.cc/FFwvfkGk/built-at-hack36.png)](https://hack36.in)
 
 
